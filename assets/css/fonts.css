@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Estonia&family=Noto+Serif:ital@1&family=Pacifico&display=swap');
+
+.courier{
+font: italic 26px/26px Courier;
+letter-spacing: 1.2px;
+}
+
+.amatic_sc{
+font: 'Amatic SC'; 
+}
+
+.caveat{
+font: italic 32px/32px Caveat;
+}
+
+.estonia{
+font: 'Estonia';
+font-size: 18px; 
+}
+
+.pacifico{
+font: italic 32px/32px Pacifico;
+}
+
+.amatic_sc{
+font: 'Noto Serif';
+font-size: 18px; 
+}

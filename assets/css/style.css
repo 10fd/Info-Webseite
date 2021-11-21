@@ -1,0 +1,57 @@
+html,body{
+	color: #FFFFFF;
+	cursor: default;
+	user-select: none;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	scroll-snap-type: x mandatory;
+}
+
+.wow { visibility: hidden; }
+
+.quote{
+	position: relative;
+	top: 50%;
+	width: 100%;
+	margin: 0;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.space{
+	background: #1F1F1F url(../img/specks.png) repeat 0 0;
+	animation: space 60s linear infinite;
+	animation-fill-mode: forwards;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: 1239px;
+	text-align: center;
+	scroll-snap-align: start;
+}
+
+@keyframes space {
+	from {background-position: 0 0;}
+	to {background-position: -1239px -476px;}
+}
+
+.yellow{
+	background: #1F1F1F url(../img/yellow.jpg) repeat 0 0;
+	overflow: hidden;
+	height: 100%;
+	background-position: center;
+	background-size: 100%;
+	text-align: center;
+	scroll-snap-align: start;
+}
+
+.mini{
+	background-image: url(../img/mini.png);
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	scroll-snap-align: start;
+}
