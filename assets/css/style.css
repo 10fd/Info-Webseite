@@ -8,8 +8,6 @@ html,body{
 	scroll-snap-type: x mandatory;
 }
 
-.wow { visibility: hidden; }
-
 .quote{
 	position: relative;
 	top: 50%;
@@ -42,7 +40,7 @@ html,body{
 	overflow: hidden;
 	height: 100%;
 	background-position: center;
-	background-size: 100%;
+	background-size: 400px;
 	text-align: center;
 	scroll-snap-align: start;
 }
