@@ -11,14 +11,16 @@ html,body{
 .quote{
 	position: relative;
 	top: 50%;
-	width: 100%;
+	left: 50%;
+	width: 800px;
 	margin: 0;
 	transform: translateY(-50%);
+	transform: translateX(-50%);
 	text-align: center;
 }
 
 .space{
-	background: #1F1F1F url(../img/specks.png) repeat 0 0;
+	background: #1F1F1F url(../img/specks.png)repeat 0 0;
 	animation: space 60s linear infinite;
 	animation-fill-mode: forwards;
 	overflow: hidden;
