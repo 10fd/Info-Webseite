@@ -8,6 +8,34 @@ html,body{
 	scroll-snap-type: x mandatory;
 }
 
+.navbar{
+	position: fixed;
+	top: 0;
+    width: 100%;
+	height: 100px;
+}
+
+.navbar a{
+	display: block;
+	height: 100px;
+}
+
+.play{
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 15px 15px;	
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.why{
+	float: right;
+	height: 40px;
+	padding: 6px 6px;
+}
+
+
 .quote{
 	position: relative;
 	top: 50%;
@@ -20,7 +48,7 @@ html,body{
 }
 
 .space{
-	background: #1F1F1F url(../img/specks.png)repeat 0 0;
+	background: #1F1F1F url(../images/specks.png)repeat 0 0;
 	animation: space 60s linear infinite;
 	animation-fill-mode: forwards;
 	overflow: hidden;
@@ -38,7 +66,7 @@ html,body{
 }
 
 .yellow{
-	background: #1F1F1F url(../img/yellow.jpg) repeat 0 0;
+	background: #1F1F1F url(../images/yellow.jpg) repeat 0 0;
 	overflow: hidden;
 	height: 100%;
 	background-position: center;
@@ -48,7 +76,7 @@ html,body{
 }
 
 .mini{
-	background-image: url(../img/mini.png);
+	background-image: url(../images/mini.png);
 	height: 100%; 
 	background-position: center;
 	background-repeat: no-repeat;
