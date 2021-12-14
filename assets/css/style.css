@@ -8,33 +8,7 @@ html,body{
 	scroll-snap-type: x mandatory;
 }
 
-.navbar{
-	position: fixed;
-	top: 0;
-    width: 100%;
-	height: 100px;
-}
-
-.navbar a{
-	display: block;
-	height: 100px;
-}
-
-.play{
-	float: left;
-	color: #ffffff;
-	text-align: center;
-	padding: 15px 15px;	
-	text-decoration: none;
-	font-size: 18px;
-}
-
-.why{
-	float: right;
-	height: 40px;
-	padding: 6px 6px;
-}
-
+/*Common Classes*/
 
 .quote{
 	position: relative;
@@ -45,7 +19,43 @@ html,body{
 	transform: translateY(-50%);
 	transform: translateX(-50%);
 	text-align: center;
+	text-shadow: 10px black;
 }
+
+/*Navbar*/
+
+.navbar{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+}
+
+.navbar a{
+	display: block;
+	height: 20px;
+}
+
+.more{
+	float: left;
+	border-radius: 10px;
+	color: #ffffff;
+	background-color: #1F1F1F;
+	text-align: center;
+	padding: 5px 15px 15px;
+	margin: 5px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.why{
+	float: right;
+	height: 200px;
+	top: -100px;
+	padding: 6px 6px;
+}
+
+/*Backgrounds*/
 
 .space{
 	background: #1F1F1F url(../images/specks.png)repeat 0 0;
