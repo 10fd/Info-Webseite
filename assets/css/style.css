@@ -5,7 +5,7 @@ html,body{
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
 }
 
 /*Common Classes*/
@@ -24,35 +24,32 @@ html,body{
 
 /*Navbar*/
 
-.navbar{
+.bar{
 	position: absolute;
-	top: 0;
 	width: 100%;
 	height: 100px;
+  animation: fadeIn 1s ease-in;
 }
 
-.navbar a{
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
+
+.bar a{
 	display: block;
 	height: 20px;
-}
-
-.more{
-	float: left;
-	border-radius: 10px;
-	color: #ffffff;
-	background-color: #1F1F1F;
-	text-align: center;
-	padding: 5px 15px 15px;
-	margin: 5px;
+  padding: 10px;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 26px;
 }
 
-.why{
+.left{
+	float: left;
+}
+
+.right{
 	float: right;
-	height: 200px;
-	top: -100px;
-	padding: 6px 6px;
 }
 
 /*Backgrounds*/
