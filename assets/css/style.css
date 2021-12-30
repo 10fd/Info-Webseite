@@ -1,6 +1,10 @@
+@font-face{
+	font-family: 'Courier Prime';
+	src: url(../fonts/CourierPrime/CourierPrime-Regular.ttf);
+	font-style: normal;
+}
+
 html,body{
-	cursor: default;
-	user-select: none;
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -11,23 +15,12 @@ html,body{
 	animation-fill-mode: forwards;
 	background-position: center;
 	background-size: 1239px;
+	cursor: default;
+	user-select: none;
 	text-align: center;
+	font: italic 26px/26px Courier;
+	letter-spacing: 1.2px;
 	scroll-snap-type: x mandatory;
-}
-
-/*Common Classes*/
-
-.quote{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	width: 800px;
-	margin: 0 0 50%;
-	transform: translateY(-50%);
-	transform: translateX(-50%);
-	text-align: center;
-	text-shadow: 10px black;
-	scroll-snap-align: start;
 }
 
 /*Navbar*/
@@ -35,16 +28,13 @@ html,body{
 .bar{
 	position: fixed;
 	width: 100%;
-	height: 100px;
 	animation: fadeIn 1s ease-in;
 }
 
 .bar a{
 	display: block;
-	height: 20px;
 	padding: 10px;
 	text-decoration: none;
-	font-size: 26px;
 }
 
 .left{
@@ -53,6 +43,17 @@ html,body{
 
 .right{
 	float: right;
+}
+
+/*Quotes*/
+
+.quote{
+	position: relative;
+	width: 90%;
+	margin: auto auto 100% auto;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	scroll-snap-align: center;
 }
 
 /*Animations*/
