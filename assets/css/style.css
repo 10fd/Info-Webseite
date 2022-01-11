@@ -20,13 +20,13 @@ html,body{
 	text-align: center;
 	font: italic 26px/26px Courier;
 	letter-spacing: 1.2px;
-	scroll-snap-type: x mandatory;
 }
 
 /*Navbar*/
 
 .bar{
 	position: fixed;
+	top: 0;
 	width: 100%;
 	animation: fadeIn 1s ease-in;
 }
@@ -39,21 +39,31 @@ html,body{
 
 .left{
 	float: left;
+	text-align: left;
 }
 
 .right{
 	float: right;
+	text-align: right;
+}
+
+#d1{
+	margin: 0;
+}
+
+#d2,#d3{
+	margin: 10px 0 0 0;
+	display: none;
 }
 
 /*Quotes*/
 
 .quote{
-	position: relative;
-	width: 90%;
-	margin: auto auto 100% auto;
-	transform: translate(-50%,-50%);
+	display: block;
+	width: 70%;
+	top: 50%;
+	margin: 50% auto 50% auto;
 	text-align: center;
-	scroll-snap-align: center;
 }
 
 /*Animations*/
