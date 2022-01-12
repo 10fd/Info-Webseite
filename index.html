@@ -10,23 +10,35 @@
 	</head>
 	<body>
 		<!--Bar-->
-		<div class='bar'>
-			<a class='left'><- Home</a>
+		<div id='bar'>
+			<a class='left'><p id='h1'><- Home</p><p id='h2'>Sorry this link doesn't go anywhere :/</p></a>
+			<script>
+				$(document).ready(function() {
+					$('#h1').click(function() {
+						$('#h1').hide();
+						$('#h2').show();
+					});
+
+					$('#h2').click(function() {
+						$('#h2').hide();
+						$('#h1').show();
+					});
+				});
+			</script>
 			<a class='right'><p id='d1'>Why?</p><p id='d2'>Honestly idk either ¯\_(ツ)_/¯</p><p id='d3'>Why did you click that?</p></a>
 			<script>
 				$(document).ready(function() {
-					console.log('done');
-					$('#d1').click(funtion() {
+					$('#d1').click(function() {
 						$('#d1').hide();
 						$('#d2').show();
 					});
 
-					$('#d2').click(funtion() {
+					$('#d2').click(function() {
 						$('#d2').hide();
 						$('#d3').show();
 					});
 
-					$('#d3').click(funtion() {
+					$('#d3').click(function() {
 						$('#d3').hide();
 						$('#d1').show();
 					});
@@ -38,7 +50,18 @@
 		<p class='quote' data-aos='fade-up'>"Mant people find the universe confusing - it's not."</p>
 		<p class='quote' data-aos='fade-up'>"To say of what is that it is not, or of what is not that it is, is false, while to say of what is that it is, and of what is not that it is not, is true."</p>
 		<p class='quote' data-aos='fade-up'>"Ultimately, It's a pretty confusing moment."</p>
-		<p class='quote' data-aos='fade-up'>"God turns you from one feeling to another and teaches by means of opposites so that you will have two wings to fly, not one"</p>
+		<p class='quote' data-aos='fade-up'>"God turns you from one feeling to another and teaches by means of opposites so that you will have two wings to fly, not one."</p>
+		<p class='quote' data-aos='fade-up'>"We are all atheists about most of the gods that humanity has ever believed in. Some of us just go one god further."</p>
+		<p class='quote' data-aos='fade-up'>"If you can't convince them, confuse them."</p>
+		<p class='quote' data-aos='fade-up'>"Logic of a madman is a sane man’s confusion."</p>
+		<p class='quote' data-aos='fade-up'>"With great power often comes great confusion."</p>
+		<p class='quote' data-aos='fade-up'>"We often confuse what we wish for with what is."</p>
+		<p class='quote' data-aos='fade-up'>"Confusion is the welcome mat at the door of creativity."</p>
+		<p class='quote' data-aos='fade-up'>"The noblest pleasure is the joy of understanding."</p>
+		<p class='quote' data-aos='fade-up'>"Confused? Confusion is good, it’s an excellent place to learn something new from."</p>
+		<p class='quote' data-aos='fade-up'>"Much unhappiness has come into the world because of bewilderment and things left unsaid."</p>
+		<p class='quote' data-aos='fade-up'>"I freely admit I'm confused."</p>
+		<p class='smalltext'>You've reached the end. Well done. This website is licensed under the MIT License. Copyright © 2022 L0FD</p>
 		<script src='https://unpkg.com/aos@next/dist/aos.js'></script>
 		<script>AOS.init();</script>
 	</body>

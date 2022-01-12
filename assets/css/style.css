@@ -9,22 +9,22 @@ html,body{
 	width: 100%;
 	margin: 0;
 	color: #FFFFFF;
-	background: #1F1F1F url(../images/specks.png)repeat 0 0;
-	background-attachment: fixed;
-	animation: space 60s linear infinite;
-	animation-fill-mode: forwards;
-	background-position: center;
-	background-size: 1239px;
 	cursor: default;
 	user-select: none;
 	text-align: center;
 	font: italic 26px/26px Courier;
 	letter-spacing: 1.2px;
+
+	background: #1F1F1F url(../images/specks.png) repeat 0 0;
+	background-attachment: fixed;
+	animation: space 60s linear infinite;
+	animation-fill-mode: forwards;
+	background-size: 1239px;
 }
 
-/*Navbar*/
+/*Bar*/
 
-.bar{
+#bar{
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -42,17 +42,27 @@ html,body{
 	text-align: left;
 }
 
+#h1,#h2{
+	margin: 0;
+	animation: fadeIn 0.5s;
+}
+
+#h2{
+	display: none;
+}
+
 .right{
 	float: right;
 	text-align: right;
 }
 
-#d1{
+#d1,#d2,#d3{
 	margin: 0;
+	animation: fadeIn 0.5s;
 }
 
 #d2,#d3{
-	margin: 10px 0 0 0;
+	margin: 46px 0 0 0;
 	display: none;
 }
 
@@ -60,10 +70,8 @@ html,body{
 
 .quote{
 	display: block;
-	width: 70%;
-	top: 50%;
-	margin: 50% auto 50% auto;
-	text-align: center;
+	width: 70vw;
+	margin: 48vh 15vw 100vh 15vw;
 }
 
 /*Animations*/
